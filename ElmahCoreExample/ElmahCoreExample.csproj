@@ -4,4 +4,13 @@
         <TargetFramework>net5.0</TargetFramework>
     </PropertyGroup>
 
+    <ItemGroup>
+      <PackageReference Include="ElmahCore" Version="2.0.6" />
+      <PackageReference Include="ElmahCore.Sql" Version="2.0.6" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="wwwroot\log" />
+    </ItemGroup>
+
 </Project>
