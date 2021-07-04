@@ -8,7 +8,7 @@
 Nuget package (Eg: ElmahCore).
 
 Startup.cs ConfigureServices **ElmahCore**
-```
+```C#
 services.AddElmah<SqlErrorLog>(options =>
 {
     options.Path = "log";
@@ -20,6 +20,14 @@ services.AddElmah<SqlErrorLog>(options =>
 ```
 
 Startup.cs Configure Middleware **ElmahCore**
-```
+```C#
 app.UseElmah();
 ```
+
+**ElmahCore Monitoring**
+
+![alt text](https://github.com/RTDemiray/ElmahCoreExample/blob/master/images/Log.PNG)
+
+**ElmahCore Mail**
+
+![alt text](https://github.com/RTDemiray/ElmahCoreExample/blob/master/images/Mail.PNG)
